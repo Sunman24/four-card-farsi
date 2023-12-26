@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="src/css/app.css">
+  <style>
+    * {
+      font-family: "Vazirmatn";
+    }
+  </style>
+
+  <script>
+    tailwind.config = {
+      theme: {
+
+        extend: {
+
+        },
+
+        colors: {
+          'red': 'hsl(0, 78%, 62%)',
+          'cyan': 'hsl(180, 62%, 55%)',
+          'orange': 'hsl(34, 97%, 64%)',
+          'blue': 'hsl(212, 86%, 64%)',
+          'white': 'hsl(0, 0%, 100%)',
+          'very-dark-blue': 'hsl(234, 12%, 34%)',
+          'grayish-blue': 'hsl(229, 6%, 66%)',
+          'very-light-gray': 'hsl(0, 0%, 90%)'
+        },
+
+
+      },
+    }
+  </script>
+
+
+  <title>Vite App</title>
+</head>
+
+<!-- titr -->
+
+<body class="bg-very-light-gray flex flex-col items-center justify-center  ">
+
+  <header class="text-center w-full pt-12 ">
+
+    <h1 class="text-3xl font-light text-very-dark-blue  ">ساده و قابل اطمینان </h1>
+    <h2 class="text-3xl font-bold text-very-dark-blue">سامانه ارتباط کارکنان </h2>
+    <p class="text-sm text-grayish-blue pt-4">برنامه های زیادی وجود دارند که با اعضای خود در ارتباط باشند، </p>
+    <p class="text-sm text-grayish-blue ">
+      و یا دیدگاه های آنها را در قسمت نظرات ببینند، و یا به وسیله ایمیل به یکدیگر تبادل نظر کنند.
+    </p>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- CARDs -->
+
+    <div class="grid lg:grid-cols-3 grid-cols-1 lg:row-span-4 w-full min-h-screen gap-6 pb-24 pt-10 ">
+
+
+      <a href=""
+        class="w-72 h-48 lg:col-start-1 lg:row-start-2 lg:row-end-4 bg-white rounded-md shadow-xl 
+        border border-b-0 border-r-0 border-l-0 border-t-cyan border-t-4 p-6 relative hover:rotate-6 hover:scale-125 hover:z-10 transition-all duration-300">
+        <h5 class="font-bold text-l pb-2 text-very-dark-blue">دسترسی مدیران </h5>
+        <p class="text-sm text-grayish-blue">در صنعت چاپ، لورم ایپسوم که به آن طرحنما نیز گفته می‌شود، به متن بی‌ معنی و
+          آزمایشی اشاره دارد. </p>
+        <img src="public/icon-supervisor.svg" alt="svg" class="absolute right-5 bottom-5 w-12">
+      </a>
+
+      <a href=""
+        class="w-72 h-48 lg:col-start-2 lg:row-start-1 lg:row-end-3 bg-white rounded-md shadow-xl 
+        border border-t-red border-b-0 border-r-0 border-l-0 border-t-4 p-6 relative hover:rotate-6 hover:scale-125 hover:z-10 transition-all duration-300">
+        <h5 class="font-bold text-l pb-2 text-very-dark-blue">آخرین اطلاعیه ها </h5>
+        <p class="text-sm text-grayish-blue">کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و
+          متخصصان را می طلبد. </p>
+        <img src="public/icon-team-builder.svg" alt="svg" class="absolute right-5 bottom-5 w-12">
+      </a>
+
+      <a href=""
+        class="w-72 h-48 lg:col-start-2 lg:row-start-3 lg:row-end-5 bg-white rounded-md shadow-xl 
+        border border-b-0 border-r-0 border-l-0 border-t-orange border-t-4 p-6 relative hover:rotate-6 hover:scale-125 hover:z-10 transition-all duration-300">
+        <h5 class="font-bold text-l pb-2 text-very-dark-blue">پیشنهادات </h5>
+        <p class="text-sm text-grayish-blue">نرم افزارها شناخت بیشتری را برای طراحان خلاقی و
+          فرهنگ پیشرو در زبان فارسی ایجاد کرد. </p>
+        <img src="public/icon-karma.svg" alt="svg" class="absolute right-5 bottom-5 w-12">
+      </a>
+
+      <a href=""
+        class="w-72 h-48 lg:col-start-3 lg:row-start-2 lg:row-end-4 bg-white rounded-md shadow-xl 
+        border border-b-0 border-r-0 border-l-0 border-t-blue border-t-4 p-6 relative hover:rotate-6 hover:scale-125 hover:z-10 transition-all duration-300">
+        <h5 class="font-bold text-l pb-2 text-very-dark-blue">اتوماسیون داخلی </h5>
+        <p class="text-sm text-grayish-blue">تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+        </p>
+        <img src="public/icon-calculator.svg" alt="svg" class="absolute right-5 bottom-5 w-12">
+      </a>
+
+
+    </div>
+
+
+
+
+
+  </main>
+</body>
+
+</html>
